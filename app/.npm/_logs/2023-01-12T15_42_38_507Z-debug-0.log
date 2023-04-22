@@ -1,0 +1,532 @@
+0 verbose cli [ '/usr/bin/node', '/usr/bin/npm', 'install', '-D', 'tailwindcss' ]
+1 info using npm@8.5.1
+2 info using node@v12.22.9
+3 timing npm:load:whichnode Completed in 0ms
+4 timing config:load:defaults Completed in 4ms
+5 timing config:load:file:/usr/share/nodejs/npm/npmrc Completed in 13ms
+6 timing config:load:builtin Completed in 13ms
+7 timing config:load:cli Completed in 4ms
+8 timing config:load:env Completed in 0ms
+9 timing config:load:file:/home/kingston/Documents/kingston-enterprises-clients/brandmaster/.npmrc Completed in 0ms
+10 timing config:load:project Completed in 3ms
+11 timing config:load:file:/home/kingston/.npmrc Completed in 1ms
+12 timing config:load:user Completed in 1ms
+13 timing config:load:file:/etc/npmrc Completed in 0ms
+14 timing config:load:global Completed in 0ms
+15 timing config:load:validate Completed in 0ms
+16 timing config:load:credentials Completed in 25ms
+17 timing config:load:setEnvs Completed in 3ms
+18 timing config:load Completed in 55ms
+19 timing npm:load:configload Completed in 57ms
+20 timing npm:load:setTitle Completed in 1ms
+21 timing config:load:flatten Completed in 13ms
+22 timing npm:load:display Completed in 20ms
+23 verbose logfile /home/kingston/.npm/_logs/2023-01-12T15_42_38_507Z-debug-0.log
+24 timing npm:load:logFile Completed in 22ms
+25 timing npm:load:timers Completed in 0ms
+26 timing npm:load:configScope Completed in 0ms
+27 timing npm:load Completed in 102ms
+28 timing arborist:ctor Completed in 3ms
+29 silly logfile start cleaning logs, removing 1 files
+30 timing arborist:ctor Completed in 0ms
+31 timing idealTree:init Completed in 17ms
+32 timing idealTree:userRequests Completed in 3ms
+33 silly idealTree buildDeps
+34 silly fetch manifest tailwindcss@*
+35 http fetch GET 200 https://registry.npmjs.org/tailwindcss 1637ms (cache miss)
+36 silly placeDep ROOT tailwindcss@3.2.4 OK for:  want: *
+37 silly fetch manifest arg@^5.0.2
+38 silly fetch manifest chokidar@^3.5.3
+39 silly fetch manifest color-name@^1.1.4
+40 silly fetch manifest detective@^5.2.1
+41 silly fetch manifest didyoumean@^1.2.2
+42 silly fetch manifest dlv@^1.1.3
+43 silly fetch manifest fast-glob@^3.2.12
+44 silly fetch manifest glob-parent@^6.0.2
+45 silly fetch manifest is-glob@^4.0.3
+46 silly fetch manifest lilconfig@^2.0.6
+47 silly fetch manifest micromatch@^4.0.5
+48 silly fetch manifest normalize-path@^3.0.0
+49 silly fetch manifest object-hash@^3.0.0
+50 silly fetch manifest picocolors@^1.0.0
+51 silly fetch manifest postcss@^8.4.18
+52 silly fetch manifest postcss-import@^14.1.0
+53 silly fetch manifest postcss-js@^4.0.0
+54 silly fetch manifest postcss-load-config@^3.1.4
+55 silly fetch manifest postcss-nested@6.0.0
+56 silly fetch manifest postcss-selector-parser@^6.0.10
+57 silly fetch manifest postcss-value-parser@^4.2.0
+58 silly fetch manifest quick-lru@^5.1.1
+59 silly fetch manifest resolve@^1.22.1
+60 http fetch GET 200 https://registry.npmjs.org/arg 194ms (cache miss)
+61 http fetch GET 200 https://registry.npmjs.org/detective 566ms (cache miss)
+62 http fetch GET 200 https://registry.npmjs.org/postcss-import 536ms (cache miss)
+63 http fetch GET 200 https://registry.npmjs.org/didyoumean 578ms (cache miss)
+64 http fetch GET 200 https://registry.npmjs.org/color-name 621ms (cache miss)
+65 http fetch GET 200 https://registry.npmjs.org/normalize-path 610ms (cache miss)
+66 http fetch GET 200 https://registry.npmjs.org/picocolors 660ms (cache miss)
+67 http fetch GET 200 https://registry.npmjs.org/is-glob 683ms (cache miss)
+68 http fetch GET 200 https://registry.npmjs.org/lilconfig 684ms (cache miss)
+69 http fetch GET 200 https://registry.npmjs.org/chokidar 712ms (cache miss)
+70 http fetch GET 200 https://registry.npmjs.org/object-hash 686ms (cache miss)
+71 http fetch GET 200 https://registry.npmjs.org/fast-glob 708ms (cache miss)
+72 http fetch GET 200 https://registry.npmjs.org/postcss-nested 677ms (cache miss)
+73 http fetch GET 200 https://registry.npmjs.org/micromatch 696ms (cache miss)
+74 http fetch GET 200 https://registry.npmjs.org/quick-lru 675ms (cache miss)
+75 http fetch GET 200 https://registry.npmjs.org/dlv 717ms (cache miss)
+76 http fetch GET 200 https://registry.npmjs.org/postcss-js 688ms (cache miss)
+77 http fetch GET 200 https://registry.npmjs.org/glob-parent 713ms (cache miss)
+78 http fetch GET 200 https://registry.npmjs.org/postcss-value-parser 683ms (cache miss)
+79 http fetch GET 200 https://registry.npmjs.org/postcss-load-config 690ms (cache miss)
+80 http fetch GET 200 https://registry.npmjs.org/postcss-selector-parser 686ms (cache miss)
+81 http fetch GET 200 https://registry.npmjs.org/resolve 689ms (cache miss)
+82 http fetch GET 200 https://registry.npmjs.org/postcss 1791ms (cache miss)
+83 timing idealTree:#root Completed in 3521ms
+84 silly fetch manifest ts-node@>=9.0.0
+85 http fetch GET 200 https://registry.npmjs.org/ts-node 192ms (cache miss)
+86 silly fetch manifest @swc/core@>=1.2.50
+87 http fetch GET 200 https://registry.npmjs.org/@swc%2fcore 897ms (cache miss)
+88 silly fetch manifest @swc/wasm@>=1.2.50
+89 http fetch GET 200 https://registry.npmjs.org/@swc%2fwasm 269ms (cache miss)
+90 silly fetch manifest @types/node@*
+91 http fetch GET 200 https://registry.npmjs.org/@types%2fnode 638ms (cache miss)
+92 silly fetch manifest typescript@>=2.7
+93 http fetch GET 200 https://registry.npmjs.org/typescript 2181ms (cache miss)
+94 silly placeDep ROOT arg@5.0.2 OK for: tailwindcss@3.2.4 want: ^5.0.2
+95 silly placeDep ROOT chokidar@3.5.3 OK for: tailwindcss@3.2.4 want: ^3.5.3
+96 silly placeDep ROOT color-name@1.1.4 OK for: tailwindcss@3.2.4 want: ^1.1.4
+97 silly placeDep ROOT detective@5.2.1 OK for: tailwindcss@3.2.4 want: ^5.2.1
+98 silly placeDep ROOT didyoumean@1.2.2 OK for: tailwindcss@3.2.4 want: ^1.2.2
+99 silly placeDep ROOT dlv@1.1.3 OK for: tailwindcss@3.2.4 want: ^1.1.3
+100 silly placeDep ROOT fast-glob@3.2.12 OK for: tailwindcss@3.2.4 want: ^3.2.12
+101 silly placeDep ROOT glob-parent@6.0.2 OK for: tailwindcss@3.2.4 want: ^6.0.2
+102 silly placeDep ROOT is-glob@4.0.3 OK for: tailwindcss@3.2.4 want: ^4.0.3
+103 silly placeDep ROOT lilconfig@2.0.6 OK for: tailwindcss@3.2.4 want: ^2.0.6
+104 silly placeDep ROOT micromatch@4.0.5 OK for: tailwindcss@3.2.4 want: ^4.0.5
+105 silly placeDep ROOT normalize-path@3.0.0 OK for: tailwindcss@3.2.4 want: ^3.0.0
+106 silly placeDep ROOT object-hash@3.0.0 OK for: tailwindcss@3.2.4 want: ^3.0.0
+107 silly placeDep ROOT picocolors@1.0.0 OK for: tailwindcss@3.2.4 want: ^1.0.0
+108 silly placeDep ROOT postcss@8.4.21 OK for: tailwindcss@3.2.4 want: ^8.4.18
+109 silly placeDep ROOT postcss-import@14.1.0 OK for: tailwindcss@3.2.4 want: ^14.1.0
+110 silly placeDep ROOT postcss-js@4.0.0 OK for: tailwindcss@3.2.4 want: ^4.0.0
+111 silly placeDep ROOT postcss-load-config@3.1.4 OK for: tailwindcss@3.2.4 want: ^3.1.4
+112 silly placeDep ROOT postcss-nested@6.0.0 OK for: tailwindcss@3.2.4 want: 6.0.0
+113 silly placeDep ROOT postcss-selector-parser@6.0.11 OK for: tailwindcss@3.2.4 want: ^6.0.10
+114 silly placeDep ROOT postcss-value-parser@4.2.0 OK for: tailwindcss@3.2.4 want: ^4.2.0
+115 silly placeDep ROOT quick-lru@5.1.1 OK for: tailwindcss@3.2.4 want: ^5.1.1
+116 silly placeDep ROOT resolve@1.22.1 OK for: tailwindcss@3.2.4 want: ^1.22.1
+117 silly fetch manifest anymatch@~3.1.2
+118 silly fetch manifest braces@~3.0.2
+119 silly fetch manifest glob-parent@~5.1.2
+120 silly fetch manifest is-binary-path@~2.1.0
+121 silly fetch manifest readdirp@~3.6.0
+122 silly fetch manifest fsevents@~2.3.2
+123 silly fetch manifest acorn-node@^1.8.2
+124 silly fetch manifest defined@^1.0.0
+125 silly fetch manifest minimist@^1.2.6
+126 silly fetch manifest @nodelib/fs.stat@^2.0.2
+127 silly fetch manifest @nodelib/fs.walk@^1.2.3
+128 silly fetch manifest glob-parent@^5.1.2
+129 silly fetch manifest merge2@^1.3.0
+130 silly fetch manifest is-extglob@^2.1.1
+131 silly fetch manifest braces@^3.0.2
+132 silly fetch manifest picomatch@^2.3.1
+133 silly fetch manifest nanoid@^3.3.4
+134 silly fetch manifest source-map-js@^1.0.2
+135 silly fetch manifest read-cache@^1.0.0
+136 silly fetch manifest camelcase-css@^2.0.1
+137 silly fetch manifest yaml@^1.10.2
+138 silly fetch manifest cssesc@^3.0.0
+139 silly fetch manifest util-deprecate@^1.0.2
+140 silly fetch manifest is-core-module@^2.9.0
+141 silly fetch manifest path-parse@^1.0.7
+142 silly fetch manifest supports-preserve-symlinks-flag@^1.0.0
+143 http fetch GET 200 https://registry.npmjs.org/anymatch 212ms (cache miss)
+144 http fetch GET 200 https://registry.npmjs.org/is-binary-path 230ms (cache miss)
+145 http fetch GET 200 https://registry.npmjs.org/minimist 261ms (cache miss)
+146 http fetch GET 200 https://registry.npmjs.org/braces 270ms (cache miss)
+147 http fetch GET 200 https://registry.npmjs.org/picomatch 264ms (cache miss)
+148 http fetch GET 200 https://registry.npmjs.org/defined 272ms (cache miss)
+149 http fetch GET 200 https://registry.npmjs.org/readdirp 277ms (cache miss)
+150 http fetch GET 200 https://registry.npmjs.org/is-extglob 271ms (cache miss)
+151 http fetch GET 200 https://registry.npmjs.org/merge2 273ms (cache miss)
+152 http fetch GET 200 https://registry.npmjs.org/source-map-js 271ms (cache miss)
+153 http fetch GET 200 https://registry.npmjs.org/acorn-node 280ms (cache miss)
+154 http fetch GET 200 https://registry.npmjs.org/cssesc 284ms (cache miss)
+155 http fetch GET 200 https://registry.npmjs.org/@nodelib%2ffs.walk 293ms (cache miss)
+156 http fetch GET 200 https://registry.npmjs.org/camelcase-css 288ms (cache miss)
+157 http fetch GET 200 https://registry.npmjs.org/fsevents 299ms (cache miss)
+158 http fetch GET 200 https://registry.npmjs.org/nanoid 292ms (cache miss)
+159 http fetch GET 200 https://registry.npmjs.org/util-deprecate 290ms (cache miss)
+160 http fetch GET 200 https://registry.npmjs.org/supports-preserve-symlinks-flag 288ms (cache miss)
+161 http fetch GET 200 https://registry.npmjs.org/read-cache 293ms (cache miss)
+162 http fetch GET 200 https://registry.npmjs.org/is-core-module 291ms (cache miss)
+163 http fetch GET 200 https://registry.npmjs.org/path-parse 290ms (cache miss)
+164 http fetch GET 200 https://registry.npmjs.org/yaml 318ms (cache miss)
+165 http fetch GET 200 https://registry.npmjs.org/@nodelib%2ffs.stat 1761ms (cache miss)
+166 timing idealTree:node_modules/tailwindcss Completed in 6152ms
+167 timing idealTree:node_modules/arg Completed in 0ms
+168 silly placeDep ROOT anymatch@3.1.3 OK for: chokidar@3.5.3 want: ~3.1.2
+169 silly placeDep ROOT braces@3.0.2 OK for: chokidar@3.5.3 want: ~3.0.2
+170 silly placeDep ROOT fsevents@2.3.2 OK for: chokidar@3.5.3 want: ~2.3.2
+171 silly placeDep node_modules/chokidar glob-parent@5.1.2 OK for: chokidar@3.5.3 want: ~5.1.2
+172 silly placeDep ROOT is-binary-path@2.1.0 OK for: chokidar@3.5.3 want: ~2.1.0
+173 silly placeDep ROOT readdirp@3.6.0 OK for: chokidar@3.5.3 want: ~3.6.0
+174 silly fetch manifest picomatch@^2.0.4
+175 silly fetch manifest fill-range@^7.0.1
+176 silly fetch manifest binary-extensions@^2.0.0
+177 silly fetch manifest picomatch@^2.2.1
+178 http fetch GET 200 https://registry.npmjs.org/fill-range 117ms (cache miss)
+179 http fetch GET 200 https://registry.npmjs.org/binary-extensions 124ms (cache miss)
+180 timing idealTree:node_modules/chokidar Completed in 164ms
+181 silly placeDep ROOT picomatch@2.3.1 OK for: anymatch@3.1.3 want: ^2.0.4
+182 timing idealTree:node_modules/anymatch Completed in 3ms
+183 silly placeDep ROOT fill-range@7.0.1 OK for: braces@3.0.2 want: ^7.0.1
+184 silly fetch manifest to-regex-range@^5.0.1
+185 http fetch GET 200 https://registry.npmjs.org/to-regex-range 89ms (cache miss)
+186 timing idealTree:node_modules/braces Completed in 96ms
+187 timing idealTree:node_modules/color-name Completed in 1ms
+188 silly placeDep ROOT acorn-node@1.8.2 OK for: detective@5.2.1 want: ^1.8.2
+189 silly placeDep ROOT defined@1.0.1 OK for: detective@5.2.1 want: ^1.0.0
+190 silly placeDep ROOT minimist@1.2.7 OK for: detective@5.2.1 want: ^1.2.6
+191 silly fetch manifest acorn@^7.0.0
+192 silly fetch manifest acorn-walk@^7.0.0
+193 silly fetch manifest xtend@^4.0.2
+194 http fetch GET 200 https://registry.npmjs.org/xtend 119ms (cache miss)
+195 http fetch GET 200 https://registry.npmjs.org/acorn-walk 139ms (cache miss)
+196 http fetch GET 200 https://registry.npmjs.org/acorn 148ms (cache miss)
+197 timing idealTree:node_modules/detective Completed in 172ms
+198 silly placeDep ROOT acorn@7.4.1 OK for: acorn-node@1.8.2 want: ^7.0.0
+199 silly placeDep ROOT acorn-walk@7.2.0 OK for: acorn-node@1.8.2 want: ^7.0.0
+200 silly placeDep ROOT xtend@4.0.2 OK for: acorn-node@1.8.2 want: ^4.0.2
+201 timing idealTree:node_modules/acorn-node Completed in 7ms
+202 timing idealTree:node_modules/acorn Completed in 0ms
+203 timing idealTree:node_modules/acorn-walk Completed in 0ms
+204 timing idealTree:node_modules/defined Completed in 0ms
+205 timing idealTree:node_modules/didyoumean Completed in 0ms
+206 timing idealTree:node_modules/dlv Completed in 0ms
+207 silly placeDep ROOT @nodelib/fs.stat@2.0.5 OK for: fast-glob@3.2.12 want: ^2.0.2
+208 silly placeDep ROOT @nodelib/fs.walk@1.2.8 OK for: fast-glob@3.2.12 want: ^1.2.3
+209 silly placeDep node_modules/fast-glob glob-parent@5.1.2 OK for: fast-glob@3.2.12 want: ^5.1.2
+210 silly placeDep ROOT merge2@1.4.1 OK for: fast-glob@3.2.12 want: ^1.3.0
+211 silly fetch manifest @nodelib/fs.scandir@2.1.5
+212 silly fetch manifest fastq@^1.6.0
+213 http fetch GET 200 https://registry.npmjs.org/fastq 96ms (cache miss)
+214 http fetch GET 200 https://registry.npmjs.org/@nodelib%2ffs.scandir 103ms (cache miss)
+215 timing idealTree:node_modules/fast-glob Completed in 118ms
+216 timing idealTree:node_modules/@nodelib/fs.stat Completed in 0ms
+217 silly placeDep ROOT @nodelib/fs.scandir@2.1.5 OK for: @nodelib/fs.walk@1.2.8 want: 2.1.5
+218 silly placeDep ROOT fastq@1.15.0 OK for: @nodelib/fs.walk@1.2.8 want: ^1.6.0
+219 silly fetch manifest run-parallel@^1.1.9
+220 silly fetch manifest reusify@^1.0.4
+221 http fetch GET 200 https://registry.npmjs.org/reusify 65ms (cache miss)
+222 http fetch GET 200 https://registry.npmjs.org/run-parallel 67ms (cache miss)
+223 timing idealTree:node_modules/@nodelib/fs.walk Completed in 76ms
+224 silly placeDep ROOT run-parallel@1.2.0 OK for: @nodelib/fs.scandir@2.1.5 want: ^1.1.9
+225 silly fetch manifest queue-microtask@^1.2.2
+226 http fetch GET 200 https://registry.npmjs.org/queue-microtask 80ms (cache miss)
+227 timing idealTree:node_modules/@nodelib/fs.scandir Completed in 85ms
+228 silly placeDep ROOT reusify@1.0.4 OK for: fastq@1.15.0 want: ^1.0.4
+229 timing idealTree:node_modules/fastq Completed in 5ms
+230 silly placeDep ROOT to-regex-range@5.0.1 OK for: fill-range@7.0.1 want: ^5.0.1
+231 silly fetch manifest is-number@^7.0.0
+232 http fetch GET 200 https://registry.npmjs.org/is-number 93ms (cache miss)
+233 timing idealTree:node_modules/fill-range Completed in 101ms
+234 timing idealTree:node_modules/fsevents Completed in 0ms
+235 timing idealTree:node_modules/glob-parent Completed in 0ms
+236 silly placeDep ROOT binary-extensions@2.2.0 OK for: is-binary-path@2.1.0 want: ^2.0.0
+237 timing idealTree:node_modules/is-binary-path Completed in 5ms
+238 timing idealTree:node_modules/binary-extensions Completed in 1ms
+239 silly placeDep ROOT is-extglob@2.1.1 OK for: is-glob@4.0.3 want: ^2.1.1
+240 timing idealTree:node_modules/is-glob Completed in 4ms
+241 timing idealTree:node_modules/is-extglob Completed in 0ms
+242 timing idealTree:node_modules/lilconfig Completed in 0ms
+243 timing idealTree:node_modules/merge2 Completed in 0ms
+244 timing idealTree:node_modules/micromatch Completed in 0ms
+245 timing idealTree:node_modules/minimist Completed in 0ms
+246 timing idealTree:node_modules/normalize-path Completed in 0ms
+247 timing idealTree:node_modules/object-hash Completed in 0ms
+248 timing idealTree:node_modules/picocolors Completed in 0ms
+249 timing idealTree:node_modules/picomatch Completed in 1ms
+250 silly placeDep ROOT nanoid@3.3.4 OK for: postcss@8.4.21 want: ^3.3.4
+251 silly placeDep ROOT source-map-js@1.0.2 OK for: postcss@8.4.21 want: ^1.0.2
+252 timing idealTree:node_modules/postcss Completed in 5ms
+253 timing idealTree:node_modules/nanoid Completed in 0ms
+254 silly placeDep ROOT read-cache@1.0.0 OK for: postcss-import@14.1.0 want: ^1.0.0
+255 silly fetch manifest pify@^2.3.0
+256 http fetch GET 200 https://registry.npmjs.org/pify 99ms (cache miss)
+257 timing idealTree:node_modules/postcss-import Completed in 105ms
+258 silly placeDep ROOT camelcase-css@2.0.1 OK for: postcss-js@4.0.0 want: ^2.0.1
+259 timing idealTree:node_modules/postcss-js Completed in 5ms
+260 timing idealTree:node_modules/camelcase-css Completed in 0ms
+261 silly placeDep ROOT yaml@1.10.2 OK for: postcss-load-config@3.1.4 want: ^1.10.2
+262 timing idealTree:node_modules/postcss-load-config Completed in 12ms
+263 timing idealTree:node_modules/postcss-nested Completed in 0ms
+264 silly placeDep ROOT cssesc@3.0.0 OK for: postcss-selector-parser@6.0.11 want: ^3.0.0
+265 silly placeDep ROOT util-deprecate@1.0.2 OK for: postcss-selector-parser@6.0.11 want: ^1.0.2
+266 timing idealTree:node_modules/postcss-selector-parser Completed in 12ms
+267 timing idealTree:node_modules/cssesc Completed in 0ms
+268 timing idealTree:node_modules/postcss-value-parser Completed in 0ms
+269 timing idealTree:node_modules/quick-lru Completed in 0ms
+270 silly placeDep ROOT pify@2.3.0 OK for: read-cache@1.0.0 want: ^2.3.0
+271 timing idealTree:node_modules/read-cache Completed in 2ms
+272 timing idealTree:node_modules/pify Completed in 0ms
+273 timing idealTree:node_modules/readdirp Completed in 0ms
+274 silly placeDep ROOT is-core-module@2.11.0 OK for: resolve@1.22.1 want: ^2.9.0
+275 silly placeDep ROOT path-parse@1.0.7 OK for: resolve@1.22.1 want: ^1.0.7
+276 silly placeDep ROOT supports-preserve-symlinks-flag@1.0.0 OK for: resolve@1.22.1 want: ^1.0.0
+277 silly fetch manifest has@^1.0.3
+278 http fetch GET 200 https://registry.npmjs.org/has 63ms (cache miss)
+279 timing idealTree:node_modules/resolve Completed in 74ms
+280 silly placeDep ROOT has@1.0.3 OK for: is-core-module@2.11.0 want: ^1.0.3
+281 silly fetch manifest function-bind@^1.1.1
+282 http fetch GET 200 https://registry.npmjs.org/function-bind 77ms (cache miss)
+283 timing idealTree:node_modules/is-core-module Completed in 83ms
+284 silly placeDep ROOT function-bind@1.1.1 OK for: has@1.0.3 want: ^1.1.1
+285 timing idealTree:node_modules/has Completed in 13ms
+286 timing idealTree:node_modules/function-bind Completed in 0ms
+287 timing idealTree:node_modules/path-parse Completed in 0ms
+288 timing idealTree:node_modules/reusify Completed in 0ms
+289 silly placeDep ROOT queue-microtask@1.2.3 OK for: run-parallel@1.2.0 want: ^1.2.2
+290 timing idealTree:node_modules/run-parallel Completed in 5ms
+291 timing idealTree:node_modules/queue-microtask Completed in 0ms
+292 timing idealTree:node_modules/source-map-js Completed in 0ms
+293 timing idealTree:node_modules/supports-preserve-symlinks-flag Completed in 0ms
+294 silly placeDep ROOT is-number@7.0.0 OK for: to-regex-range@5.0.1 want: ^7.0.0
+295 timing idealTree:node_modules/to-regex-range Completed in 4ms
+296 timing idealTree:node_modules/is-number Completed in 0ms
+297 timing idealTree:node_modules/util-deprecate Completed in 0ms
+298 timing idealTree:node_modules/xtend Completed in 0ms
+299 timing idealTree:node_modules/yaml Completed in 0ms
+300 timing idealTree:node_modules/chokidar/node_modules/glob-parent Completed in 0ms
+301 timing idealTree:node_modules/fast-glob/node_modules/glob-parent Completed in 0ms
+302 timing idealTree:buildDeps Completed in 10852ms
+303 timing idealTree:fixDepFlags Completed in 3ms
+304 timing idealTree Completed in 10879ms
+305 timing reify:loadTrees Completed in 10880ms
+306 timing reify:diffTrees Completed in 4ms
+307 silly reify moves {}
+308 timing reify:retireShallow Completed in 2ms
+309 timing reify:createSparse Completed in 85ms
+310 timing reify:loadBundles Completed in 0ms
+311 silly audit bulk request {
+311 silly audit   tailwindcss: [ '3.2.4' ],
+311 silly audit   arg: [ '5.0.2' ],
+311 silly audit   chokidar: [ '3.5.3' ],
+311 silly audit   'color-name': [ '1.1.4' ],
+311 silly audit   detective: [ '5.2.1' ],
+311 silly audit   didyoumean: [ '1.2.2' ],
+311 silly audit   dlv: [ '1.1.3' ],
+311 silly audit   'fast-glob': [ '3.2.12' ],
+311 silly audit   'glob-parent': [ '6.0.2', '5.1.2' ],
+311 silly audit   'is-glob': [ '4.0.3' ],
+311 silly audit   lilconfig: [ '2.0.6' ],
+311 silly audit   micromatch: [ '4.0.5' ],
+311 silly audit   'normalize-path': [ '3.0.0' ],
+311 silly audit   'object-hash': [ '3.0.0' ],
+311 silly audit   picocolors: [ '1.0.0' ],
+311 silly audit   postcss: [ '8.4.21' ],
+311 silly audit   'postcss-import': [ '14.1.0' ],
+311 silly audit   'postcss-js': [ '4.0.0' ],
+311 silly audit   'postcss-load-config': [ '3.1.4' ],
+311 silly audit   'postcss-nested': [ '6.0.0' ],
+311 silly audit   'postcss-selector-parser': [ '6.0.11' ],
+311 silly audit   'postcss-value-parser': [ '4.2.0' ],
+311 silly audit   'quick-lru': [ '5.1.1' ],
+311 silly audit   resolve: [ '1.22.1' ],
+311 silly audit   anymatch: [ '3.1.3' ],
+311 silly audit   braces: [ '3.0.2' ],
+311 silly audit   fsevents: [ '2.3.2' ],
+311 silly audit   'is-binary-path': [ '2.1.0' ],
+311 silly audit   readdirp: [ '3.6.0' ],
+311 silly audit   picomatch: [ '2.3.1' ],
+311 silly audit   'fill-range': [ '7.0.1' ],
+311 silly audit   'acorn-node': [ '1.8.2' ],
+311 silly audit   defined: [ '1.0.1' ],
+311 silly audit   minimist: [ '1.2.7' ],
+311 silly audit   acorn: [ '7.4.1' ],
+311 silly audit   'acorn-walk': [ '7.2.0' ],
+311 silly audit   xtend: [ '4.0.2' ],
+311 silly audit   '@nodelib/fs.stat': [ '2.0.5' ],
+311 silly audit   '@nodelib/fs.walk': [ '1.2.8' ],
+311 silly audit   merge2: [ '1.4.1' ],
+311 silly audit   '@nodelib/fs.scandir': [ '2.1.5' ],
+311 silly audit   fastq: [ '1.15.0' ],
+311 silly audit   'run-parallel': [ '1.2.0' ],
+311 silly audit   reusify: [ '1.0.4' ],
+311 silly audit   'to-regex-range': [ '5.0.1' ],
+311 silly audit   'binary-extensions': [ '2.2.0' ],
+311 silly audit   'is-extglob': [ '2.1.1' ],
+311 silly audit   nanoid: [ '3.3.4' ],
+311 silly audit   'source-map-js': [ '1.0.2' ],
+311 silly audit   'read-cache': [ '1.0.0' ],
+311 silly audit   'camelcase-css': [ '2.0.1' ],
+311 silly audit   yaml: [ '1.10.2' ],
+311 silly audit   cssesc: [ '3.0.0' ],
+311 silly audit   'util-deprecate': [ '1.0.2' ],
+311 silly audit   pify: [ '2.3.0' ],
+311 silly audit   'is-core-module': [ '2.11.0' ],
+311 silly audit   'path-parse': [ '1.0.7' ],
+311 silly audit   'supports-preserve-symlinks-flag': [ '1.0.0' ],
+311 silly audit   has: [ '1.0.3' ],
+311 silly audit   'function-bind': [ '1.1.1' ],
+311 silly audit   'queue-microtask': [ '1.2.3' ],
+311 silly audit   'is-number': [ '7.0.0' ]
+311 silly audit }
+312 verbose reify failed optional dependency /home/kingston/Documents/kingston-enterprises-clients/brandmaster/node_modules/fsevents
+313 silly reify mark deleted [
+313 silly reify   '/home/kingston/Documents/kingston-enterprises-clients/brandmaster/node_modules/fsevents'
+313 silly reify ]
+314 timing reifyNode:node_modules/fsevents Completed in 29ms
+315 timing reifyNode:node_modules/is-number Completed in 799ms
+316 timing reifyNode:node_modules/path-parse Completed in 797ms
+317 timing reifyNode:node_modules/pify Completed in 799ms
+318 timing reifyNode:node_modules/read-cache Completed in 799ms
+319 timing reifyNode:node_modules/is-extglob Completed in 799ms
+320 timing reifyNode:node_modules/run-parallel Completed in 799ms
+321 timing reifyNode:node_modules/merge2 Completed in 798ms
+322 timing reifyNode:node_modules/normalize-path Completed in 807ms
+323 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 820ms
+324 timing auditReport:getReport Completed in 825ms
+325 silly audit report {}
+326 timing auditReport:init Completed in 0ms
+327 timing reify:audit Completed in 826ms
+328 timing reifyNode:node_modules/glob-parent Completed in 810ms
+329 timing reifyNode:node_modules/queue-microtask Completed in 818ms
+330 timing reifyNode:node_modules/camelcase-css Completed in 817ms
+331 timing reifyNode:node_modules/to-regex-range Completed in 816ms
+332 timing reifyNode:node_modules/is-binary-path Completed in 817ms
+333 timing reifyNode:node_modules/fill-range Completed in 818ms
+334 timing reifyNode:node_modules/postcss-nested Completed in 817ms
+335 timing reifyNode:node_modules/anymatch Completed in 822ms
+336 timing reifyNode:node_modules/quick-lru Completed in 822ms
+337 timing reifyNode:node_modules/is-glob Completed in 821ms
+338 timing reifyNode:node_modules/arg Completed in 821ms
+339 timing reifyNode:node_modules/chokidar/node_modules/glob-parent Completed in 822ms
+340 timing reifyNode:node_modules/fast-glob/node_modules/glob-parent Completed in 822ms
+341 timing reifyNode:node_modules/util-deprecate Completed in 827ms
+342 timing reifyNode:node_modules/color-name Completed in 825ms
+343 timing reifyNode:node_modules/has Completed in 835ms
+344 timing reifyNode:node_modules/binary-extensions Completed in 833ms
+345 timing reifyNode:node_modules/xtend Completed in 833ms
+346 timing reifyNode:node_modules/didyoumean Completed in 830ms
+347 timing reifyNode:node_modules/readdirp Completed in 833ms
+348 timing reifyNode:node_modules/micromatch Completed in 833ms
+349 timing reifyNode:node_modules/picocolors Completed in 834ms
+350 timing reifyNode:node_modules/lilconfig Completed in 839ms
+351 timing reifyNode:node_modules/cssesc Completed in 849ms
+352 timing reifyNode:node_modules/object-hash Completed in 855ms
+353 timing reifyNode:node_modules/postcss-js Completed in 856ms
+354 timing reifyNode:node_modules/dlv Completed in 855ms
+355 timing reifyNode:node_modules/reusify Completed in 860ms
+356 timing reifyNode:node_modules/postcss-load-config Completed in 858ms
+357 timing reifyNode:node_modules/is-core-module Completed in 865ms
+358 timing reifyNode:node_modules/supports-preserve-symlinks-flag Completed in 865ms
+359 timing reifyNode:node_modules/postcss-import Completed in 865ms
+360 timing reifyNode:node_modules/postcss-value-parser Completed in 872ms
+361 timing reifyNode:node_modules/function-bind Completed in 883ms
+362 timing reifyNode:node_modules/defined Completed in 880ms
+363 timing reifyNode:node_modules/braces Completed in 884ms
+364 timing reifyNode:node_modules/picomatch Completed in 906ms
+365 timing reifyNode:node_modules/chokidar Completed in 909ms
+366 timing reifyNode:node_modules/acorn-walk Completed in 919ms
+367 timing reifyNode:node_modules/fastq Completed in 940ms
+368 timing reifyNode:node_modules/@nodelib/fs.stat Completed in 948ms
+369 timing reifyNode:node_modules/source-map-js Completed in 967ms
+370 timing reifyNode:node_modules/minimist Completed in 967ms
+371 timing reifyNode:node_modules/nanoid Completed in 972ms
+372 timing reifyNode:node_modules/@nodelib/fs.scandir Completed in 971ms
+373 timing reifyNode:node_modules/@nodelib/fs.walk Completed in 1002ms
+374 timing reifyNode:node_modules/acorn-node Completed in 1012ms
+375 timing reifyNode:node_modules/detective Completed in 1021ms
+376 timing reifyNode:node_modules/postcss-selector-parser Completed in 1033ms
+377 timing reifyNode:node_modules/postcss Completed in 1059ms
+378 timing reifyNode:node_modules/fast-glob Completed in 1063ms
+379 timing reifyNode:node_modules/acorn Completed in 1069ms
+380 timing reifyNode:node_modules/yaml Completed in 1076ms
+381 timing reifyNode:node_modules/resolve Completed in 1124ms
+382 timing reifyNode:node_modules/tailwindcss Completed in 1184ms
+383 timing reify:unpack Completed in 1193ms
+384 timing reify:unretire Completed in 0ms
+385 timing build:queue Completed in 6ms
+386 timing build:link:node_modules/acorn Completed in 7ms
+387 timing build:link:node_modules/cssesc Completed in 6ms
+388 timing build:link:node_modules/detective Completed in 6ms
+389 timing build:link:node_modules/nanoid Completed in 6ms
+390 timing build:link:node_modules/resolve Completed in 5ms
+391 timing build:link:node_modules/tailwindcss Completed in 5ms
+392 timing build:link Completed in 7ms
+393 timing build:deps Completed in 14ms
+394 timing build Completed in 15ms
+395 timing reify:build Completed in 16ms
+396 timing reify:trash Completed in 5ms
+397 timing reify:save Completed in 39ms
+398 timing reify Completed in 12276ms
+399 silly ADD node_modules/is-number
+400 silly ADD node_modules/queue-microtask
+401 silly ADD node_modules/function-bind
+402 silly ADD node_modules/has
+403 silly ADD node_modules/supports-preserve-symlinks-flag
+404 silly ADD node_modules/path-parse
+405 silly ADD node_modules/is-core-module
+406 silly ADD node_modules/pify
+407 silly ADD node_modules/util-deprecate
+408 silly ADD node_modules/cssesc
+409 silly ADD node_modules/yaml
+410 silly ADD node_modules/camelcase-css
+411 silly ADD node_modules/read-cache
+412 silly ADD node_modules/source-map-js
+413 silly ADD node_modules/nanoid
+414 silly ADD node_modules/is-extglob
+415 silly ADD node_modules/binary-extensions
+416 silly ADD node_modules/to-regex-range
+417 silly ADD node_modules/reusify
+418 silly ADD node_modules/run-parallel
+419 silly ADD node_modules/fastq
+420 silly ADD node_modules/@nodelib/fs.scandir
+421 silly ADD node_modules/merge2
+422 silly ADD node_modules/@nodelib/fs.walk
+423 silly ADD node_modules/@nodelib/fs.stat
+424 silly ADD node_modules/xtend
+425 silly ADD node_modules/acorn-walk
+426 silly ADD node_modules/acorn
+427 silly ADD node_modules/minimist
+428 silly ADD node_modules/defined
+429 silly ADD node_modules/acorn-node
+430 silly ADD node_modules/fill-range
+431 silly ADD node_modules/picomatch
+432 silly ADD node_modules/readdirp
+433 silly ADD node_modules/is-binary-path
+434 silly ADD
+435 silly ADD node_modules/braces
+436 silly ADD node_modules/anymatch
+437 silly ADD node_modules/resolve
+438 silly ADD node_modules/quick-lru
+439 silly ADD node_modules/postcss-value-parser
+440 silly ADD node_modules/postcss-selector-parser
+441 silly ADD node_modules/postcss-nested
+442 silly ADD node_modules/postcss-load-config
+443 silly ADD node_modules/postcss-js
+444 silly ADD node_modules/postcss-import
+445 silly ADD node_modules/postcss
+446 silly ADD node_modules/picocolors
+447 silly ADD node_modules/object-hash
+448 silly ADD node_modules/normalize-path
+449 silly ADD node_modules/micromatch
+450 silly ADD node_modules/lilconfig
+451 silly ADD node_modules/is-glob
+452 silly ADD node_modules/glob-parent
+453 silly ADD node_modules/fast-glob
+454 silly ADD node_modules/fast-glob/node_modules/glob-parent
+455 silly ADD node_modules/dlv
+456 silly ADD node_modules/didyoumean
+457 silly ADD node_modules/detective
+458 silly ADD node_modules/color-name
+459 silly ADD node_modules/chokidar
+460 silly ADD node_modules/chokidar/node_modules/glob-parent
+461 silly ADD node_modules/arg
+462 silly ADD node_modules/tailwindcss
+463 timing command:install Completed in 12292ms
+464 verbose exit 0
+465 timing npm Completed in 14720ms
+466 info ok

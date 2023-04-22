@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/wallpaper2"
+    tools:context=".MainActivity">
+
+    <LinearLayout android:id="@+id/section1" android:padding="15dp" android:layout_marginTop="10dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:gravity="center_horizontal" android:divider="@drawable/empty_wide_divider" app:layout_constraintTop_toTopOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintBottom_toTopOf="@+id/section2">
+
+        <TextView android:id="@+id/TimeTextView" android:fontFamily="@font/thebomb" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="30dp" android:background="#FF9800" android:padding="10dp" android:text="30s" android:textColor="#795548" android:textSize="30sp"/>
+
+        <Space android:layout_width="10dp" android:layout_height="match_parent"/>
+
+        <TextView android:id="@+id/ScoreTextView" android:fontFamily="@font/ribeye" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="right" android:layout_margin="10dp" android:layout_marginRight="30dp" android:background="#4CAF50" android:padding="15dp" android:text="00" android:textColor="#FFFFFF" android:textSize="40sp" />
+
+    </LinearLayout>
+
+    <LinearLayout android:id="@+id/section2" android:layout_width="match_parent" android:layout_height="wrap_content" android:padding="20dp" android:gravity="center" app:layout_constraintTop_toBottomOf="@+id/section1" app:layout_constraintBottom_toTopOf="@+id/section3">
+
+        <TextView android:id="@+id/QuestionTextView" android:fontFamily="@font/ribeye" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="20dp" android:padding="20dp" android:text="29 + 12" android:textColor="#555555" android:textSize="70sp" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintVertical_bias="0.207" app:layout_constraintHorizontal_bias="0.486"/>
+    </LinearLayout>
+
+    <LinearLayout android:id="@+id/section3" android:layout_width="match_parent" android:layout_height="wrap_content" android:gravity="center" android:padding="20dp" app:layout_constraintTop_toBottomOf="@+id/section2" app:layout_constraintStart_toStartOf="parent" app:layout_constraintBottom_toTopOf="@+id/section4">
+
+        <GridLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:rowCount="2" android:columnCount="2">
+
+
+            <Button android:id="@+id/button0" android:fontFamily="@font/thebomb" android:layout_width="140dp" android:layout_height="105dp" android:layout_margin="10dp" android:backgroundTint="#EE3B76" android:onClick="optionSelect" android:tag="0" android:text="Button" android:textSize="24sp" app:layout_constraintBottom_toTopOf="@+id/button2" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@+id/section3" />
+
+            <Button android:id="@+id/button1" android:fontFamily="@font/thebomb" android:layout_width="140dp" android:layout_height="105dp" android:layout_margin="10dp" android:backgroundTint="#FFAA68" android:onClick="optionSelect" android:tag="1" android:text="Button" android:textSize="24sp" app:layout_constraintBottom_toTopOf="@+id/button3" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@+id/QuestionTextText"/>
+
+            <Button android:id="@+id/button2" android:fontFamily="@font/thebomb" android:layout_width="140dp" android:layout_height="105dp" android:layout_margin="10dp" android:backgroundTint="#5DA2CF" android:onClick="optionSelect" android:tag="2" android:text="Button" android:textSize="24sp" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toStartOf="@+id/button3" app:layout_constraintStart_toStartOf="parent" app:layout_constraintBottom_toTopOf="@id/button0"/>
+
+            <Button android:id="@+id/button3" android:fontFamily="@font/thebomb" android:layout_width="140dp" android:layout_height="105dp" android:layout_margin="10dp" android:backgroundTint="#6A32E9" android:onClick="optionSelect" android:tag="3" android:text="Button" android:textSize="24sp" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintHorizontal_bias="0.0" app:layout_constraintStart_toStartOf="parent" app:layout_constraintBottom_toTopOf="@+id/button1" />
+
+        </GridLayout>
+    </LinearLayout>
+
+    <LinearLayout android:id="@+id/section4" android:layout_width="match_parent" android:layout_height="wrap_content" android:gravity="center" app:layout_constraintTop_toBottomOf="@+id/section3" app:layout_constraintBottom_toBottomOf="parent">
+        <TextView android:id="@+id/AlertTextView" android:fontFamily="@font/thebomb" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="35dp" android:padding="20dp" android:text="GO.." android:textColor="#FFFFFF" android:textSize="50sp" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent"/>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

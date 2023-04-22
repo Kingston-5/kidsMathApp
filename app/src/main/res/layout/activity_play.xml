@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:background="@drawable/wallpaper1"
+    tools:context=".PlayActivity">
+
+    <ImageView
+        android:src="@drawable/happy"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        />
+
+    <TextView
+        android:fontFamily="@font/thebomb"
+        android:text="Kids Math"
+        android:textAlignment="center"
+        android:textColor="#F1532B"
+        android:shadowColor="@color/black"
+        android:shadowDx="1"
+        android:shadowDy="-1"
+        android:textSize="35sp"
+        android:layout_marginTop="100dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/addition"
+            android:src="@drawable/addition"
+            android:layout_margin="15dp"
+            android:layout_width="80dp"
+            android:layout_height="80dp"/>
+        <ImageView
+            android:id="@+id/sub"
+            android:src="@drawable/subtraction"
+            android:layout_width="80dp"
+            android:layout_height="80dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/multi"
+            android:src="@drawable/multiply"
+            android:layout_margin="15dp"
+            android:layout_width="80dp"
+            android:layout_height="80dp"/>
+        <ImageView
+            android:id="@+id/div"
+            android:src="@drawable/division"
+            android:layout_width="80dp"
+            android:layout_height="80dp"/>
+    </LinearLayout>
+
+
+</LinearLayout>
